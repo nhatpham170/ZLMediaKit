@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{645D966D-9D89-3C45-9868-CA245B17A090}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>zltoolkit</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">zltoolkit.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">zltoolkit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">zltoolkit.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">zltoolkit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">zltoolkit.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">zltoolkit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">zltoolkit.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">zltoolkit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;DBUG_OFF;SOCKET_DEFAULT_BUF_SIZE=262144;HAS_EPOLL;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\3rdpart\wepoll;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Repositories\ZLMediaKit\3rdpart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Repositories\ZLMediaKit\3rdpart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Repositories\ZLMediaKit\3rdpart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckStructHasMember.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;C:\Program Files (x86)\CMake\share\cmake-3.10\Modules\CMakeConfigurableFile.in;E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Repositories\ZLMediaKit\3rdpart\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Buffer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\BufferSock.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Server.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Session.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Socket.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpClient.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpServer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\UdpServer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\sockutil.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\EventPoller.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Pipe.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\PipeWrap.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\SelectWrap.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Timer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\TaskExecutor.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\WorkThreadPool.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\CMD.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\File.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\MD5.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\NoticeCenter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SHA1.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLBox.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLUtil.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SqlPool.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\base64.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\local_time.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\logger.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\mini.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\strptime_win.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\util.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\uv_errno.cpp"  />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Buffer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\BufferSock.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Server.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Session.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Socket.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpClient.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpServer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\UdpServer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\sockutil.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\EventPoller.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Pipe.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\PipeWrap.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\SelectWrap.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Timer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\TaskExecutor.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\TaskQueue.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\ThreadPool.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\WorkThreadPool.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\semaphore.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\threadgroup.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\CMD.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\File.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\List.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\MD5.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\NoticeCenter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\ResourcePool.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\RingBuffer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SHA1.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLBox.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLUtil.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SpeedStatistic.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SqlConnection.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SqlPool.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\TimeTicker.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\base64.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\function_traits.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\local_time.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\logger.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\mini.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\onceToken.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\strptime_win.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\util.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\uv_errno.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\win32\getopt.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\win32\tailor.h" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\win32\getopt.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll\wepoll.c" >
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll\sys\epoll.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\ZERO_CHECK.vcxproj">
+      <Project>{1AD584E5-2FEB-3574-B15A-3614975CC34D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

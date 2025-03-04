@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\fmp4-reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\fmp4-writer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-avc1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-dinf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-elst.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-esds.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-ftyp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-hdlr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-hdr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-iods.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-leva.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-mdhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-mehd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-mfhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-minf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-mvhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-opus.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-sidx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-stco.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-stsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-stsd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-stss.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-stsz.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-stts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-tag.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-tfdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-tfhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-tfra.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-tkhd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-track.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-trex.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-trun.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-tx3g.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-udta.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-vpcc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\source\mov-writer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1D746E27-6487-3E6A-955D-70B1B6B40850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

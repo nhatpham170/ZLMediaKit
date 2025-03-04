@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+E:/Repositories/ZLMediaKit/api/CMakeLists.txt
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/GenerateExportHeader.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/exportheader.cmake.in

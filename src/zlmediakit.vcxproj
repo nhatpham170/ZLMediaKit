@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{12EEF420-63E7-3261-91B7-3AB70F59D0F4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>zlmediakit</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">zlmediakit.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">zlmediakit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">zlmediakit.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">zlmediakit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">zlmediakit.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">zlmediakit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Repositories\ZLMediaKit\release\windows\Debug\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">zlmediakit.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">zlmediakit</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4566;4819</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>E:\Repositories\ZLMediaKit;E:\Repositories\ZLMediaKit\3rdpart;E:\Repositories\ZLMediaKit\src;E:\Repositories\ZLMediaKit\src\..;E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include;E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include;E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repositories\ZLMediaKit\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/Repositories/ZLMediaKit/src/CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\Repositories\ZLMediaKit\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/Repositories/ZLMediaKit/src/CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Repositories\ZLMediaKit\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/Repositories/ZLMediaKit/src/CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\Repositories\ZLMediaKit\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/Repositories/ZLMediaKit/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HE:/Repositories/ZLMediaKit -BE:/Repositories/ZLMediaKit --check-stamp-file E:/Repositories/ZLMediaKit/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/Repositories/ZLMediaKit/src/CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;E:\Repositories\ZLMediaKit\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\Repositories\ZLMediaKit\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\H264Encoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\Transcode.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Device.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\JemallocUtil.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MediaSink.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MediaSource.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MultiMediaSourceMuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Parser.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Stamp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\config.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\macros.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\strCoding.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtmp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Factory.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Frame.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Track.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HlsParser.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HlsPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpBody.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpChunkedSplitter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpClient.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpClientImp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpConst.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookie.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookieManager.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpDownloader.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpFileManager.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequestSplitter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequester.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpSession.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpTSPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\TsPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\TsplayerImp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\WebSocketSplitter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\MediaPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\PlayerBase.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\PlayerProxy.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\MediaPusher.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherBase.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherProxy.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMaker.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMakerImp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMediaSource.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Demuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Muxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Reader.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Recorder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MPEG.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\Recorder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\Rtcp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpContext.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpFCI.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvMuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvSplitter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\Rtmp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpDemuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMediaSourceImp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpProtocol.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPusher.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpSession.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\amf.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\utils.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\Decoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\GB28181Process.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\PSDecoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\PSEncoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RawEncoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpCache.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpProcess.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSender.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpServer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSession.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSplitter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\TSDecoder.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpCodec.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpMultiCaster.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpReceiver.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\Rtsp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspDemuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMediaSourceImp.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMuxer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPusher.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSession.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSplitter.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\UDPServer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Shell\ShellSession.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtCaller.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPlayer.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPusher.cpp"  />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\H264Encoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\Transcode.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\Device.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\JemallocUtil.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\MediaSink.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\MediaSource.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\MultiMediaSourceMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\PacketCache.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\Parser.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\Stamp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\config.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\macros.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Common\strCoding.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtmp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Extension\Factory.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Extension\Frame.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Extension\Track.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\FMP4\FMP4MediaSource.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\FMP4\FMP4MediaSourceMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HlsParser.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HlsPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpBody.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpChunkedSplitter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpClient.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpClientImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpConst.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookie.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookieManager.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpDownloader.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpFileManager.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequestSplitter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequester.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpSession.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\HttpTSPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\TsPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\TsPlayerImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\WebSocketClient.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\WebSocketSession.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Http\WebSocketSplitter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Player\MediaPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Player\PlayerBase.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Player\PlayerProxy.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Pusher\MediaPusher.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherBase.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherProxy.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\HlsMaker.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\HlsMakerImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\HlsMediaSource.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\HlsRecorder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\MP4.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\MP4Demuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\MP4Muxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\MP4Reader.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\MP4Recorder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\MPEG.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Record\Recorder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtcp\Rtcp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpContext.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpFCI.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvSplitter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\Rtmp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpCodec.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpDemuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMediaSource.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMediaSourceImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMediaSourceMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPlayerImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpProtocol.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPusher.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpSession.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\amf.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtmp\utils.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\Decoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\GB28181Process.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\PSDecoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\PSEncoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\ProcessInterface.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RawEncoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpCache.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpProcess.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSender.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpServer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSession.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSplitter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtp\TSDecoder.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpCodec.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpMultiCaster.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpReceiver.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\Rtsp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspDemuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMediaSource.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMediaSourceImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMediaSourceMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMuxer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPlayerImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPusher.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSession.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSplitter.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Rtsp\UDPServer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Shell\ShellCMD.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Shell\ShellSession.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Srt\SrtCaller.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPlayer.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPlayerImp.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPusher.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\TS\TSMediaSource.h" />
+    <ClInclude Include="E:\Repositories\ZLMediaKit\src\TS\TSMediaSourceMuxer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\ZERO_CHECK.vcxproj">
+      <Project>{1AD584E5-2FEB-3574-B15A-3614975CC34D}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\3rdpart\flv.vcxproj">
+      <Project>{EA961B54-98EF-37C4-8F71-BD8705C67943}</Project>
+      <Name>flv</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\3rdpart\jsoncpp.vcxproj">
+      <Project>{2E6EEFE2-9E5E-3AA2-AAB2-511DDBDFCBB4}</Project>
+      <Name>jsoncpp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\3rdpart\mov.vcxproj">
+      <Project>{5407488B-9B11-33B6-8EE0-81CBBB90A7E5}</Project>
+      <Name>mov</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\3rdpart\mpeg.vcxproj">
+      <Project>{332EF860-F175-3F1D-A680-D6BE719F8DF6}</Project>
+      <Name>mpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\Repositories\ZLMediaKit\3rdpart\zltoolkit.vcxproj">
+      <Project>{645D966D-9D89-3C45-9868-CA245B17A090}</Project>
+      <Name>zltoolkit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

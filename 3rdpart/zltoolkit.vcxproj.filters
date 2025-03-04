@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Buffer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\BufferSock.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Server.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Session.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\UdpServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\sockutil.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\EventPoller.cpp">
+      <Filter>Poller</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Pipe.cpp">
+      <Filter>Poller</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\PipeWrap.cpp">
+      <Filter>Poller</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\SelectWrap.cpp">
+      <Filter>Poller</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Timer.cpp">
+      <Filter>Poller</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\TaskExecutor.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\WorkThreadPool.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\CMD.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\File.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\MD5.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\NoticeCenter.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SHA1.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLBox.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLUtil.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SqlPool.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\base64.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\local_time.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\logger.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\mini.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\strptime_win.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\util.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\uv_errno.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\win32\getopt.c">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll\wepoll.c">
+      <Filter>E:\Repositories\ZLMediaKit\3rdpart\wepoll</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll\sys\epoll.cpp">
+      <Filter>E:\Repositories\ZLMediaKit\3rdpart\wepoll\sys</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Buffer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\BufferSock.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Server.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Session.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\TcpServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\UdpServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Network\sockutil.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\EventPoller.h">
+      <Filter>Poller</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Pipe.h">
+      <Filter>Poller</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\PipeWrap.h">
+      <Filter>Poller</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\SelectWrap.h">
+      <Filter>Poller</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Poller\Timer.h">
+      <Filter>Poller</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\TaskExecutor.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\TaskQueue.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\ThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\WorkThreadPool.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\semaphore.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Thread\threadgroup.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\CMD.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\File.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\List.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\MD5.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\NoticeCenter.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\ResourcePool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\RingBuffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SHA1.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLBox.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SSLUtil.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SpeedStatistic.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SqlConnection.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\SqlPool.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\TimeTicker.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\base64.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\function_traits.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\local_time.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\logger.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\mini.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\onceToken.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\strptime_win.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\util.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\Util\uv_errno.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\win32\getopt.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src\win32\tailor.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart">
+      <UniqueIdentifier>{1905C5F8-5624-3768-AE3F-37CC5CE26D76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll\sys">
+      <UniqueIdentifier>{FB66B406-A25D-36DF-9F5D-3F020E197163}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repositories\ZLMediaKit">
+      <UniqueIdentifier>{F4280CF1-B238-3246-B02A-E2BF5D9CEAE2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repositories">
+      <UniqueIdentifier>{B49E9DAC-51A4-3961-8FE1-EDC0931EB7C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll">
+      <UniqueIdentifier>{D001EBC7-B894-34C8-A7B7-2A52CE338CF6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{0E8AAFE2-B64C-305D-AAE0-C2BBE53368BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poller">
+      <UniqueIdentifier>{BFF08BBA-E1A7-344D-8AA3-423B98AF7317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{BE4209D5-F6F5-3933-8653-3FDFC58C77F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{A5E56BE4-3E77-3A45-B9F0-16C430D58E5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{4FBC2A72-08A5-3716-B4D4-996BF7C3F4A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="E:">
+      <UniqueIdentifier>{3B7ACDCF-B888-3B22-A7D2-C74175B62F5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

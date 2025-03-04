@@ -1,0 +1,10 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /I"E:\Repositories\ZLMediaKit\ext-codec" /I"E:\Repositories\ZLMediaKit\ext-codec\.." /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ext-codec.dir\Debug\\" /Fd"ext-codec.dir\Debug\ext-codec.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 "E:\Repositories\ZLMediaKit\ext-codec\AACRtp.cpp"
+  
+  AACRtp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  ext-codec.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\ext-codec.lib

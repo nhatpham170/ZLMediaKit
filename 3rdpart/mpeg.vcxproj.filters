@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-element-descriptor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-muxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-pack-header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-packet.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-pat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-pes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-pmt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ps-dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ps-enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-psd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-psm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-sdt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-system-header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ts-dec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ts-enc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ts-h264.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ts-h265.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-ts-h266.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\source\mpeg-util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1D746E27-6487-3E6A-955D-70B1B6B40850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

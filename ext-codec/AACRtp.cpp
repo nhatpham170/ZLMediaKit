@@ -9,6 +9,7 @@
  */
 
 #include "AACRtp.h"
+#include <algorithm>
 
 namespace mediakit{
 

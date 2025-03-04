@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+E:/Repositories/ZLMediaKit/tests/CMakeLists.txt
+E:/Repositories/ZLMediaKit/cmake/FindPCAP.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.10/Modules/FindPackageMessage.cmake

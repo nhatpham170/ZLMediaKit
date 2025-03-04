@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\amf0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\amf3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\aom-av1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\avswg-avs3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-demuxer-script.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-demuxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-muxer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-parser.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-reader.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-writer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\hevc-annexbtomp4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\hevc-mp4toannexb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mp3-header.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-aac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-annexbtomp4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-avc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-hevc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-mp4toannexb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-vvc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\opus-head.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\riff-acm.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\vvc-annexbtomp4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\vvc-mp4toannexb.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\webm-vpx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\xiph-flac.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1D746E27-6487-3E6A-955D-70B1B6B40850}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

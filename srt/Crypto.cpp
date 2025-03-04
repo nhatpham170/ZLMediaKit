@@ -7,6 +7,7 @@
 #if defined(ENABLE_OPENSSL)
 #include "openssl/evp.h"
 #endif
+#include <SrtTransport.hpp>
 
 using namespace toolkit;
 using namespace std;
