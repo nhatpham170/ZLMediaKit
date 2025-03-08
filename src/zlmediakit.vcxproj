@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -88,7 +88,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -119,11 +120,13 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -151,11 +154,13 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat></DebugInformationFormat>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -184,7 +189,8 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
-      <SuppressStartupBanner></SuppressStartupBanner>
+      <SuppressStartupBanner>
+      </SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ENABLE_VERSION;ENABLE_SRT;ENABLE_MP4;ENABLE_RTPPROXY;ENABLE_HLS;DBUG_OFF;WIN32_LEAN_AND_MEAN;MP4V2_NO_STDINT_DEFS;_CRT_SECURE_NO_WARNINGS;_WINSOCK_DEPRECATED_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -259,102 +265,103 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\H264Encoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\Transcode.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Device.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\JemallocUtil.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MediaSink.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MediaSource.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MultiMediaSourceMuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Parser.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Stamp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\config.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\macros.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\strCoding.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtmp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Factory.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Frame.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Track.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HlsParser.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HlsPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpBody.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpChunkedSplitter.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpClient.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpClientImp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpConst.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookie.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookieManager.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpDownloader.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpFileManager.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequestSplitter.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequester.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpSession.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpTSPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\TsPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\TsplayerImp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\WebSocketSplitter.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\MediaPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\PlayerBase.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\PlayerProxy.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\MediaPusher.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherBase.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherProxy.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMaker.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMakerImp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMediaSource.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Demuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Muxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Reader.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Recorder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MPEG.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\Recorder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\Rtcp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpContext.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpFCI.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvMuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvSplitter.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\Rtmp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpDemuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMediaSourceImp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpProtocol.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPusher.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpSession.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\amf.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\utils.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\Decoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\GB28181Process.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\PSDecoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\PSEncoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RawEncoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpCache.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpProcess.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSender.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpServer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSession.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSplitter.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\TSDecoder.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpCodec.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpMultiCaster.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpReceiver.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\Rtsp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspDemuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMediaSourceImp.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMuxer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPusher.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSession.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSplitter.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\UDPServer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Shell\ShellSession.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtCaller.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPlayer.cpp"  />
-    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPusher.cpp"  />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\H264Encoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Codec\Transcode.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Device.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\JemallocUtil.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MediaSink.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MediaSource.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\MultiMediaSourceMuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Parser.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\Stamp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\config.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\macros.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Common\strCoding.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtmp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\CommonRtp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Factory.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Frame.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Extension\Track.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HlsParser.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HlsPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpBody.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpChunkedSplitter.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpClient.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpClientImp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpConst.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookie.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpCookieManager.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpDownloader.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpFileManager.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequestSplitter.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpRequester.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpSession.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\HttpTSPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\TsPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\TsplayerImp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Http\WebSocketSplitter.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\MediaPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\PlayerBase.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Player\PlayerProxy.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\MediaPusher.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherBase.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Pusher\PusherProxy.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMaker.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMakerImp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\HlsMediaSource.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Demuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Muxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Reader.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MP4Recorder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\MPEG.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Record\Recorder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\Rtcp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpContext.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtcp\RtcpFCI.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvMuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\FlvSplitter.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\Rtmp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpDemuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMediaSourceImp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpMuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpProtocol.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpPusher.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\RtmpSession.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\amf.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtmp\utils.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\Decoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\GB28181Process.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\PSDecoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\PSEncoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RawEncoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpCache.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpProcess.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSender.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpServer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSession.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\RtpSplitter.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtp\TSDecoder.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpCodec.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpMultiCaster.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtpReceiver.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\Rtsp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspDemuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMediaSourceImp.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspMuxer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspPusher.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSession.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\RtspSplitter.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Rtsp\UDPServer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Shell\ShellSession.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtCaller.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPlayer.cpp" />
+    <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPusher.cpp" />
+    <ClCompile Include="JT1078Package.cpp" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\H264Encoder.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\Transcode.h" />
@@ -469,6 +476,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPusher.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\TS\TSMediaSource.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\TS\TSMediaSourceMuxer.h" />
+    <ClInclude Include="JT1078Package.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:\Repositories\ZLMediaKit\ZERO_CHECK.vcxproj">

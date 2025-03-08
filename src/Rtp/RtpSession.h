@@ -14,13 +14,16 @@
 #if defined(ENABLE_RTPPROXY)
 
 #include "Network/Session.h"
-#include "RtpSplitter.h"
 #include "RtpProcess.h"
+#include "RtpSplitter.h"
 #include "Util/TimeTicker.h"
+#include <JT1078Package.h>
 
-namespace mediakit{
+namespace mediakit {
 
-class RtpSession : public toolkit::Session, public RtpSplitter {
+class RtpSession
+    : public toolkit::Session
+    , public RtpSplitter {
 public:
     static const std::string kVhost;
     static const std::string kApp;
@@ -31,6 +34,9 @@ public:
 
     RtpSession(const toolkit::Socket::Ptr &sock);
     ~RtpSession() override;
+    void AnalysisJT1078(std::string strHex);
+    void AnalysisJT1078264(std::string strHex);
+    void AnalysisJT1078264New(std::string strHex);
     void onRecv(const toolkit::Buffer::Ptr &) override;
     void onError(const toolkit::SockException &err) override;
     void onManager() override;
@@ -62,8 +68,21 @@ private:
     MediaTuple _tuple;
     struct sockaddr_storage _addr;
     RtpProcess::Ptr _process;
+    // string dataBuffer;
+    std::string _reverse = "";
+    uint32_t _time = 0;
+    int _lastFrameInterval = 0;
+    int _fps = 15;
+    int _fps_temp = 0;
+    uint64_t _firstTime = 0;
+    uint32_t _sqe = 0;
+    int _lastType;
+    std::string _imei = "";
+    std::string _ssrcStr = "";
+    std::string _channel = "";
+    mediakit::JT1078Package *_lastPackage;
 };
 
-}//namespace mediakit
-#endif//defined(ENABLE_RTPPROXY)
-#endif //ZLMEDIAKIT_RTPSESSION_H
+} // namespace mediakit
+#endif // defined(ENABLE_RTPPROXY)
+#endif // ZLMEDIAKIT_RTPSESSION_H
