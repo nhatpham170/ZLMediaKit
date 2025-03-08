@@ -245,20 +245,20 @@
     <CustomBuild Include="E:\Repositories\ZLMediaKit\3rdpart\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart">
-      <UniqueIdentifier>{1905C5F8-5624-3768-AE3F-37CC5CE26D76}</UniqueIdentifier>
+    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll">
+      <UniqueIdentifier>{D001EBC7-B894-34C8-A7B7-2A52CE338CF6}</UniqueIdentifier>
     </Filter>
     <Filter Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll\sys">
       <UniqueIdentifier>{FB66B406-A25D-36DF-9F5D-3F020E197163}</UniqueIdentifier>
     </Filter>
-    <Filter Include="E:\Repositories\ZLMediaKit">
-      <UniqueIdentifier>{F4280CF1-B238-3246-B02A-E2BF5D9CEAE2}</UniqueIdentifier>
+    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart">
+      <UniqueIdentifier>{1905C5F8-5624-3768-AE3F-37CC5CE26D76}</UniqueIdentifier>
     </Filter>
     <Filter Include="E:\Repositories">
       <UniqueIdentifier>{B49E9DAC-51A4-3961-8FE1-EDC0931EB7C1}</UniqueIdentifier>
     </Filter>
-    <Filter Include="E:\Repositories\ZLMediaKit\3rdpart\wepoll">
-      <UniqueIdentifier>{D001EBC7-B894-34C8-A7B7-2A52CE338CF6}</UniqueIdentifier>
+    <Filter Include="E:\Repositories\ZLMediaKit">
+      <UniqueIdentifier>{F4280CF1-B238-3246-B02A-E2BF5D9CEAE2}</UniqueIdentifier>
     </Filter>
     <Filter Include="Network">
       <UniqueIdentifier>{0E8AAFE2-B64C-305D-AAE0-C2BBE53368BF}</UniqueIdentifier>

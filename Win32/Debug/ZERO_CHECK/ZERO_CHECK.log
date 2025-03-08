@@ -1,10 +1,50 @@
 ﻿  Checking Build System
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/src/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/ext-codec/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/srt/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/api/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/api/tests/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/server/CMakeFiles/generate.stamp is up-to-date.
-  CMake does not need to re-run because E:/Repositories/ZLMediaKit/tests/CMakeFiles/generate.stamp is up-to-date.
+  CMake is re-running because E:/Repositories/ZLMediaKit/CMakeFiles/generate.stamp is out-of-date.
+    the file 'E:/Repositories/ZLMediaKit/CMakeLists.txt'
+    is newer than 'E:/Repositories/ZLMediaKit/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.26100.
+  -- τ╝ûΦ»æτ▒╗σ₧ï: Debug
+  -- Git version is master 2c8d816/2025-03-05T00:29:44+07:00 2025-03-06T00:14:19
+  CMake Warning at CMakeLists.txt:412 (message):
+    openssl µ£¬µë╛σê░, rtmp σ░åΣ╕ìµö»µîü flash µÆ¡µö╛σÖ¿,
+    https/wss/rtsps/rtmps/webrtc Σ╣ƒσ░åσñ▒µòê
+  
+  
+  -- MySQL not found.
+  -- ENABLE_MP4 defined
+  -- ENABLE_RTPPROXY defined
+  -- ENABLE_HLS defined
+  -- Socket default buffer size is set to 262144
+  -- Enable wepoll
+  -- set_file_group E:/Repositories/ZLMediaKit/3rdpart/ZLToolKit/src 80
+  -- set_file_group E:/Repositories/ZLMediaKit/src 211
+  -- srt σèƒΦâ╜σ╖▓σ╝ÇσÉ»
+  -- add c api tester: h264_media_server
+  -- add c api tester: h264_pusher
+  -- add c api tester: httpclient
+  -- add c api tester: pusher
+  -- add c api tester: server
+  -- add c api tester: websocket
+  -- PCAP LIBRARIES: PCAP_LIBRARIES-NOTFOUND
+  -- PCAP INCLUDE DIRS: PCAP_INCLUDE_DIRS-NOTFOUND
+  -- add test: bom
+  -- add test: tab
+  -- add test: test_bench_forward
+  -- add test: test_bench_proxy
+  -- add test: test_bench_pull
+  -- add test: test_bench_push
+  -- add test: test_flv
+  -- add test: test_httpApi
+  -- add test: test_httpClient
+  -- add test: test_ps
+  -- add test: test_pusher
+  -- add test: test_pusherMp4
+  -- add test: test_rtp
+  -- add test: test_server
+  -- add test: test_sortor
+  -- add test: test_wsClient
+  -- add test: test_wsServer
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: E:/Repositories/ZLMediaKit
