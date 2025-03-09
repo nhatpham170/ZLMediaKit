@@ -22,6 +22,7 @@ public:
     int frameInterval = 0;
     int length = 0;
     JT1078Package() {}
+    
     void GetKey();
     enum DataType {
         VideoI = 0,

@@ -18,6 +18,7 @@
 #include "RtpSplitter.h"
 #include "Util/TimeTicker.h"
 #include <JT1078Package.h>
+#include <Protocol/JT1078/JT1078Process.h>
 
 namespace mediakit {
 
@@ -63,6 +64,8 @@ private:
     bool _search_rtp_finished = false;
     bool _emit_detach = false;
     int _only_track = 0;
+    std::string _protocol;
+    
     uint32_t _ssrc = 0;
     toolkit::Ticker _ticker;
     MediaTuple _tuple;
@@ -81,6 +84,7 @@ private:
     std::string _ssrcStr = "";
     std::string _channel = "";
     mediakit::JT1078Package *_lastPackage;
+    mediakit::JT1078Process * _jt1078_process;
 };
 
 } // namespace mediakit

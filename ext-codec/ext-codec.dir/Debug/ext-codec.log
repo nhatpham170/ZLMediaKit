@@ -1,10 +1,107 @@
-﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
+﻿  Building Custom Rule E:/Repositories/ZLMediaKit/ext-codec/CMakeLists.txt
+  CMake does not need to re-run because E:/Repositories/ZLMediaKit/ext-codec/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /I"E:\Repositories\ZLMediaKit\ext-codec" /I"E:\Repositories\ZLMediaKit\ext-codec\.." /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ext-codec.dir\Debug\\" /Fd"ext-codec.dir\Debug\ext-codec.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 "E:\Repositories\ZLMediaKit\ext-codec\AACRtp.cpp"
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /I"E:\Repositories\ZLMediaKit\ext-codec" /I"E:\Repositories\ZLMediaKit\ext-codec\.." /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ext-codec.dir\Debug\\" /Fd"ext-codec.dir\Debug\ext-codec.pdb" /Gd /TC /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 "E:\Repositories\ZLMediaKit\ext-codec\SPSParser.c"
   
+  SPSParser.c
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1048): warning C4018: '>=': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1049): warning C4018: '>=': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1249): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1395): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1419): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1432): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1454): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1871): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1936): warning C4018: '>=': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1937): warning C4018: '>=': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1985): warning C4018: '>': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1991): warning C4018: '>': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(1667): warning C4101: 'iVuiPresent': unreferenced local variable
+e:\repositories\zlmediakit\ext-codec\spsparser.c(2123): warning C4018: '>': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\spsparser.c(2192): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /I"E:\Repositories\ZLMediaKit\ext-codec" /I"E:\Repositories\ZLMediaKit\ext-codec\.." /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"ext-codec.dir\Debug\\" /Fd"ext-codec.dir\Debug\ext-codec.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 "E:\Repositories\ZLMediaKit\ext-codec\AAC.cpp" "E:\Repositories\ZLMediaKit\ext-codec\AACRtmp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\AACRtp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\G711.cpp" "E:\Repositories\ZLMediaKit\ext-codec\G711Rtp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\H264.cpp" "E:\Repositories\ZLMediaKit\ext-codec\H264Rtmp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\H264Rtp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\H265.cpp" "E:\Repositories\ZLMediaKit\ext-codec\H265Rtmp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\H265Rtp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\JPEG.cpp" "E:\Repositories\ZLMediaKit\ext-codec\JPEGRtp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\L16.cpp" "E:\Repositories\ZLMediaKit\ext-codec\MP3.cpp" "E:\Repositories\ZLMediaKit\ext-codec\MP3Rtp.cpp" "E:\Repositories\ZLMediaKit\ext-codec\Opus.cpp"
+  
+  AAC.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  AACRtmp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\repositories\zlmediakit\ext-codec\aacrtmp.cpp(40): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
   AACRtp.cpp
 e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
 e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
 e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  G711.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  G711Rtp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+  H264.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  H264Rtmp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\repositories\zlmediakit\ext-codec\h264rtmp.cpp(74): warning C4244: 'initializing': conversion from 'uint64_t' to 'int32_t', possible loss of data
+e:\repositories\zlmediakit\ext-codec\h264rtmp.cpp(77): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  H264Rtp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  H265.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  H265Rtmp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\repositories\zlmediakit\ext-codec\h265rtmp.cpp(131): warning C4244: 'initializing': conversion from 'uint64_t' to 'int32_t', possible loss of data
+e:\repositories\zlmediakit\ext-codec\h265rtmp.cpp(134): warning C4244: '=': conversion from 'uint64_t' to 'uint32_t', possible loss of data
+  H265Rtp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  JPEG.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\repositories\zlmediakit\ext-codec\jpeg.cpp(15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  JPEGRtp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\repositories\zlmediakit\ext-codec\jpegrtp.cpp(138): warning C4333: '>>': right shift by too large amount, data loss
+e:\repositories\zlmediakit\ext-codec\jpegrtp.cpp(152): warning C4018: '<': signed/unsigned mismatch
+e:\repositories\zlmediakit\ext-codec\jpegrtp.cpp(502): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+  L16.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MP3.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MP3Rtp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\ext-codec\mp3rtp.cpp(27): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+e:\repositories\zlmediakit\ext-codec\mp3rtp.cpp(28): warning C4267: '=': conversion from 'size_t' to 'char', possible loss of data
+  Opus.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
   ext-codec.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\ext-codec.lib

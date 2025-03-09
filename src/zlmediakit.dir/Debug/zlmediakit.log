@@ -1,33 +1,8 @@
 ﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\src\.. /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D DBUG_OFF /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"zlmediakit.dir\Debug\\" /Fd"zlmediakit.dir\Debug\zlmediakit.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 E:\Repositories\ZLMediaKit\src\Rtp\RtpSender.cpp E:\Repositories\ZLMediaKit\src\Rtp\RtpServer.cpp E:\Repositories\ZLMediaKit\src\Rtp\RtpSession.cpp JT1078Package.cpp
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\src\.. /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D DBUG_OFF /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"zlmediakit.dir\Debug\\" /Fd"zlmediakit.dir\Debug\zlmediakit.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 Protocol\JT1078\JT1078Process.cpp
   
-  RtpSender.cpp
-e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
-e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
-e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-e:\repositories\zlmediakit\src\rtp\rtpsender.cpp(191): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  RtpServer.cpp
-e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
-e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
-e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  RtpSession.cpp
-e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
-e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
-e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(84): warning C4200: nonstandard extension used: zero-sized array in struct/union
-  e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(84): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(192): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(244): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(475): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(477): warning C4244: 'initializing': conversion from 'long' to 'uint8_t', possible loss of data
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(749): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(872): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(909): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(927): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(1005): warning C4018: '<': signed/unsigned mismatch
-e:\repositories\zlmediakit\src\rtp\rtpsession.cpp(1226): warning C4018: '<': signed/unsigned mismatch
-  JT1078Package.cpp
-  Generating Code...
+  JT1078Process.cpp
+e:\repositories\zlmediakit\src\protocol\jt1078\jt1078process.cpp(16): warning C4018: '<': signed/unsigned mismatch
   zlmediakit.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\zlmediakit.lib

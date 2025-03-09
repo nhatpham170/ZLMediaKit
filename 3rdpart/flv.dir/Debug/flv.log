@@ -1,1 +1,59 @@
-﻿  flv.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\flv.lib
+﻿  Building Custom Rule E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt
+  CMake does not need to re-run because E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /IE:\Repositories\ZLMediaKit\3rdpart\wepoll /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D SOCKET_DEFAULT_BUF_SIZE=262144 /D HAS_EPOLL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"flv.dir\Debug\\" /Fd"flv.dir\Debug\flv.pdb" /Gd /TC /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\amf0.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\amf3.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\aom-av1.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\avswg-avs3.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-demuxer-script.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-demuxer.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-header.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-muxer.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-parser.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-reader.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\flv-writer.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\hevc-annexbtomp4.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\hevc-mp4toannexb.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mp3-header.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-aac.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-annexbtomp4.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-avc.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-hevc.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-mp4toannexb.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\mpeg4-vvc.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\opus-head.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\riff-acm.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\vvc-annexbtomp4.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\vvc-mp4toannexb.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\webm-vpx.c" "E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\source\xiph-flac.c"
+  
+  amf0.c
+  amf3.c
+  aom-av1.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\aom-av1.c(602): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\stdio.h(213): note: see declaration of 'fopen'
+  avswg-avs3.c
+  flv-demuxer-script.c
+  flv-demuxer.c
+  flv-header.c
+  flv-muxer.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\flv-muxer.c(497): warning C4018: '<=': signed/unsigned mismatch
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\flv-muxer.c(547): warning C4018: '<=': signed/unsigned mismatch
+  flv-parser.c
+  flv-reader.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\flv-reader.c(54): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\stdio.h(213): note: see declaration of 'fopen'
+  flv-writer.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\flv-writer.c(60): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\stdio.h(213): note: see declaration of 'fopen'
+  hevc-annexbtomp4.c
+  hevc-mp4toannexb.c
+  mp3-header.c
+  mpeg4-aac-asc.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x2340 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x2341 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x245a that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x245b that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x2460 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x2461 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x2636 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x2637 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x263c that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac-asc.c : warning C4828: The file contains a character starting at offset 0x263d that is illegal in the current source character set (codepage 65001).
+  mpeg4-aac.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac.c : warning C4828: The file contains a character starting at offset 0x21f4 that is illegal in the current source character set (codepage 65001).
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\mpeg4-aac.c : warning C4828: The file contains a character starting at offset 0x23c5 that is illegal in the current source character set (codepage 65001).
+  mpeg4-annexbtomp4.c
+  mpeg4-avc.c
+  mpeg4-hevc.c
+  mpeg4-mp4toannexb.c
+  Generating Code...
+  Compiling...
+  mpeg4-vvc.c
+  opus-head.c
+  riff-acm.c
+  vvc-annexbtomp4.c
+  vvc-mp4toannexb.c
+e:\repositories\zlmediakit\3rdpart\media-server\libflv\source\vvc-mp4toannexb.c(114): warning C4018: '<': signed/unsigned mismatch
+  webm-vpx.c
+  xiph-flac.c
+  Generating Code...
+  flv.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\flv.lib

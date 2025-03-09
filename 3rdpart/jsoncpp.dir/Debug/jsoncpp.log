@@ -1,1 +1,12 @@
-﻿  jsoncpp.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\jsoncpp.lib
+﻿  Building Custom Rule E:/Repositories/ZLMediaKit/3rdpart/CMakeLists.txt
+  CMake does not need to re-run because E:/Repositories/ZLMediaKit/3rdpart/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /IE:\Repositories\ZLMediaKit\3rdpart\wepoll /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D SOCKET_DEFAULT_BUF_SIZE=262144 /D HAS_EPOLL /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"jsoncpp.dir\Debug\\" /Fd"jsoncpp.dir\Debug\jsoncpp.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\src\lib_json\json_reader.cpp E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\src\lib_json\json_value.cpp E:\Repositories\ZLMediaKit\3rdpart\jsoncpp\src\lib_json\json_writer.cpp
+  
+  json_reader.cpp
+  json_value.cpp
+  json_writer.cpp
+  Generating Code...
+  jsoncpp.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\jsoncpp.lib

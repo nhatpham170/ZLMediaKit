@@ -292,6 +292,9 @@
     <ClCompile Include="JT1078Package.cpp">
       <Filter>Protocol\JT1078</Filter>
     </ClCompile>
+    <ClCompile Include="Protocol\JT1078\JT1078Process.cpp">
+      <Filter>Protocol\JT1078</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.h">
@@ -637,6 +640,9 @@
       <Filter>TS</Filter>
     </ClInclude>
     <ClInclude Include="JT1078Package.h">
+      <Filter>Protocol\JT1078</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol\JT1078\JT1078Process.h">
       <Filter>Protocol\JT1078</Filter>
     </ClInclude>
   </ItemGroup>

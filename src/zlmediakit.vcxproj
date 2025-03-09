@@ -362,6 +362,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPlayer.cpp" />
     <ClCompile Include="E:\Repositories\ZLMediaKit\src\Srt\SrtPusher.cpp" />
     <ClCompile Include="JT1078Package.cpp" />
+    <ClCompile Include="Protocol\JT1078\JT1078Process.cpp" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\AACEncoder.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\H264Encoder.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\Codec\Transcode.h" />
@@ -477,6 +478,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\TS\TSMediaSource.h" />
     <ClInclude Include="E:\Repositories\ZLMediaKit\src\TS\TSMediaSourceMuxer.h" />
     <ClInclude Include="JT1078Package.h" />
+    <ClInclude Include="Protocol\JT1078\JT1078Process.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:\Repositories\ZLMediaKit\ZERO_CHECK.vcxproj">

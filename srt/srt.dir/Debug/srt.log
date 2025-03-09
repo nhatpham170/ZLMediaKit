@@ -1,8 +1,16 @@
-﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
+﻿  Building Custom Rule E:/Repositories/ZLMediaKit/srt/CMakeLists.txt
+  CMake does not need to re-run because E:/Repositories/ZLMediaKit/srt/CMakeFiles/generate.stamp is up-to-date.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27053 for x86
   Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /IE:\Repositories\ZLMediaKit\srt /IE:\Repositories\ZLMediaKit\srt\.. /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"srt.dir\Debug\\" /Fd"srt.dir\Debug\srt.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 E:\Repositories\ZLMediaKit\srt\Crypto.cpp
+  cl /c /IE:\Repositories\ZLMediaKit /IE:\Repositories\ZLMediaKit\3rdpart /IE:\Repositories\ZLMediaKit\srt /IE:\Repositories\ZLMediaKit\srt\.. /IE:\Repositories\ZLMediaKit\src /IE:\Repositories\ZLMediaKit\3rdpart\jsoncpp\include /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libflv\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmov\include" /I"E:\Repositories\ZLMediaKit\3rdpart\media-server\libmpeg\include" /IE:\Repositories\ZLMediaKit\3rdpart\ZLToolKit\src /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D DBUG_OFF /D ENABLE_VERSION /D ENABLE_SRT /D ENABLE_MP4 /D ENABLE_RTPPROXY /D ENABLE_HLS /D WIN32_LEAN_AND_MEAN /D MP4V2_NO_STDINT_DEFS /D _CRT_SECURE_NO_WARNINGS /D _WINSOCK_DEPRECATED_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"srt.dir\Debug\\" /Fd"srt.dir\Debug\srt.pdb" /Gd /TP /wd4566 /wd4819 /analyze- /FC /errorReport:prompt  /utf-8 E:\Repositories\ZLMediaKit\srt\Ack.cpp E:\Repositories\ZLMediaKit\srt\Crypto.cpp E:\Repositories\ZLMediaKit\srt\HSExt.cpp E:\Repositories\ZLMediaKit\srt\NackContext.cpp E:\Repositories\ZLMediaKit\srt\Packet.cpp E:\Repositories\ZLMediaKit\srt\PacketQueue.cpp E:\Repositories\ZLMediaKit\srt\PacketSendQueue.cpp E:\Repositories\ZLMediaKit\srt\SrtSession.cpp E:\Repositories\ZLMediaKit\srt\SrtTransport.cpp E:\Repositories\ZLMediaKit\srt\SrtTransportImp.cpp E:\Repositories\ZLMediaKit\srt\Statistic.cpp
   
+  Ack.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
   Crypto.cpp
 e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
           with
@@ -13,4 +21,117 @@ e:\repositories\zlmediakit\srt\crypto.cpp(427): warning C4267: '=': conversion f
 e:\repositories\zlmediakit\srt\crypto.cpp(428): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
 e:\repositories\zlmediakit\srt\crypto.cpp(439): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
 e:\repositories\zlmediakit\srt\crypto.cpp(440): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+  HSExt.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+e:\repositories\zlmediakit\srt\hsext.cpp(98): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+e:\repositories\zlmediakit\srt\hsext.cpp(283): warning C4267: '=': conversion from 'size_t' to 'uint16_t', possible loss of data
+  NackContext.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  Packet.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  PacketQueue.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  PacketSendQueue.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  SrtSession.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  SrtTransport.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+e:\repositories\zlmediakit\srt\srttransport.cpp(200): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(236): warning C4244: 'initializing': conversion from 'int64_t' to 'uint16_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(281): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(370): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(384): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(395): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(416): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(578): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(596): warning C4244: 'initializing': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(635): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(667): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(705): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(713): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(725): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(744): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(932): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+e:\repositories\zlmediakit\srt\srttransport.cpp(949): warning C4244: '=': conversion from 'int64_t' to 'uint32_t', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\buildtools\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\buildtools\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<double,SRT::SrtTransport::handleHandshakeInduction::<lambda_ffa4b1be00dcbac0d0fae6e672c43a33>,const toolkit::EventPoller::Ptr&>(double &&,SRT::SrtTransport::handleHandshakeInduction::<lambda_ffa4b1be00dcbac0d0fae6e672c43a33> &&,const toolkit::EventPoller::Ptr &)' being compiled
+          with
+          [
+              _Ty=toolkit::Timer
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\buildtools\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<double,SRT::SrtTransport::handleHandshakeInduction::<lambda_ffa4b1be00dcbac0d0fae6e672c43a33>,const toolkit::EventPoller::Ptr&>(double &&,SRT::SrtTransport::handleHandshakeInduction::<lambda_ffa4b1be00dcbac0d0fae6e672c43a33> &&,const toolkit::EventPoller::Ptr &)' being compiled
+          with
+          [
+              _Ty=toolkit::Timer
+          ]
+  e:\repositories\zlmediakit\srt\srttransport.cpp(220): note: see reference to function template instantiation 'std::shared_ptr<toolkit::Timer> std::make_shared<toolkit::Timer,double,SRT::SrtTransport::handleHandshakeInduction::<lambda_ffa4b1be00dcbac0d0fae6e672c43a33>,const toolkit::EventPoller::Ptr&>(double &&,SRT::SrtTransport::handleHandshakeInduction::<lambda_ffa4b1be00dcbac0d0fae6e672c43a33> &&,const toolkit::EventPoller::Ptr &)' being compiled
+c:\program files (x86)\microsoft visual studio\2017\buildtools\vc\tools\msvc\14.16.27023\include\memory(1801): warning C4244: 'argument': conversion from '_Ty' to 'uint32_t', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\buildtools\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<int,size_t&,double,size_t&>(int &&,size_t &,double &&,size_t &)' being compiled
+          with
+          [
+              _Ty=SRT::PacketRecvQueue
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\buildtools\vc\tools\msvc\14.16.27023\include\memory(1866): note: see reference to function template instantiation 'std::_Ref_count_obj<_Ty>::_Ref_count_obj<int,size_t&,double,size_t&>(int &&,size_t &,double &&,size_t &)' being compiled
+          with
+          [
+              _Ty=SRT::PacketRecvQueue
+          ]
+  e:\repositories\zlmediakit\srt\srttransport.cpp(315): note: see reference to function template instantiation 'std::shared_ptr<SRT::PacketRecvQueue> std::make_shared<SRT::PacketRecvQueue,int,uint32_t&,double,uint32_t&>(int &&,uint32_t &,double &&,uint32_t &)' being compiled
+  SrtTransportImp.cpp
+e:\repositories\zlmediakit\src\extension\frame.h(812): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\frame.h(813): warning C4244: '=': conversion from 'uint64_t' to 'size_t', possible loss of data
+e:\repositories\zlmediakit\src\extension\track.h(195): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+  Statistic.cpp
+e:\repositories\zlmediakit\srt\common.hpp(32): warning C4244: 'return': conversion from '_Rep' to 'uint32_t', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+e:\repositories\zlmediakit\srt\statistic.cpp(46): warning C4244: '+=': conversion from 'const int64_t' to 'int', possible loss of data
+  Generating Code...
   srt.vcxproj -> E:\Repositories\ZLMediaKit\release\windows\Debug\Debug\srt.lib
